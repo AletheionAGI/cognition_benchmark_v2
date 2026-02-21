@@ -13,13 +13,13 @@ Multi-model benchmark for evaluating AI cognitive capabilities across 6 categori
 | 5 | Gemini 2.5 Flash | 0.824 | [0.750, 0.897] |
 
 ### Ranking with 95% Confidence Interval
-![Ranking](results/graphs/01_ranking_with_ci.png)
+![Ranking](benchmark_v2/results/graphs/01_ranking_with_ci.png)
 
 ### Score by Model x Category
-![Heatmap](results/graphs/02_heatmap_categories.png)
+![Heatmap](benchmark_v2/results/graphs/02_heatmap_categories.png)
 
 ### Radar - All Models
-![Radar](results/graphs/03_radar_all_models.png)
+![Radar](benchmark_v2/results/graphs/03_radar_all_models.png)
 
 ## Categories (30 tests)
 
