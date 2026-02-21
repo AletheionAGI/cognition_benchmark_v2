@@ -1,0 +1,2063 @@
+{
+  "timestamp": "2026-02-21T01:05:46.557316",
+  "model_stats": {
+    "claude": {
+      "overall_mean": 0.864,
+      "overall_std": 0.2001,
+      "overall_ci_lower": 0.7893,
+      "overall_ci_upper": 0.9387,
+      "by_test": {
+        "SC-01": {
+          "mean": 0.75,
+          "std": 0.0,
+          "ci_lower": 0.75,
+          "ci_upper": 0.75,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "SC-02": {
+          "mean": 1.0,
+          "std": 0.0,
+          "ci_lower": 1.0,
+          "ci_upper": 1.0,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "SC-03": {
+          "mean": 0.875,
+          "std": 0.0,
+          "ci_lower": 0.875,
+          "ci_upper": 0.875,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "SC-04": {
+          "mean": 0.95,
+          "std": 0.0,
+          "ci_lower": 0.95,
+          "ci_upper": 0.95,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "SC-05": {
+          "mean": 0.9896,
+          "std": 0.0,
+          "ci_lower": 0.9896,
+          "ci_upper": 0.9896,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "EC-01": {
+          "mean": 0.8333,
+          "std": 0.0,
+          "ci_lower": 0.8333,
+          "ci_upper": 0.8333,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "EC-02": {
+          "mean": 0.8333,
+          "std": 0.0,
+          "ci_lower": 0.8333,
+          "ci_upper": 0.8333,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "EC-03": {
+          "mean": 1.0,
+          "std": 0.0,
+          "ci_lower": 1.0,
+          "ci_upper": 1.0,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "EC-04": {
+          "mean": 0.9167,
+          "std": 0.0,
+          "ci_lower": 0.9167,
+          "ci_upper": 0.9167,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "EC-05": {
+          "mean": 0.9583,
+          "std": 0.0,
+          "ci_lower": 0.9583,
+          "ci_upper": 0.9583,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "FG-01": {
+          "mean": 0.7723,
+          "std": 0.0,
+          "ci_lower": 0.7723,
+          "ci_upper": 0.7723,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "FG-02": {
+          "mean": 0.9149,
+          "std": 0.0,
+          "ci_lower": 0.9149,
+          "ci_upper": 0.9149,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "FG-03": {
+          "mean": 0.9464,
+          "std": 0.0,
+          "ci_lower": 0.9464,
+          "ci_upper": 0.9464,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "FG-04": {
+          "mean": 0.975,
+          "std": 0.0,
+          "ci_lower": 0.975,
+          "ci_upper": 0.975,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "FG-05": {
+          "mean": 0.9337,
+          "std": 0.0,
+          "ci_lower": 0.9337,
+          "ci_upper": 0.9337,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CA-01": {
+          "mean": 0.75,
+          "std": 0.0,
+          "ci_lower": 0.75,
+          "ci_upper": 0.75,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CA-02": {
+          "mean": 0.6833,
+          "std": 0.0,
+          "ci_lower": 0.6833,
+          "ci_upper": 0.6833,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CA-03": {
+          "mean": 0.0,
+          "std": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0,
+          "stability": 0.0,
+          "unstable": true,
+          "n_seeds": 1
+        },
+        "CA-04": {
+          "mean": 1.0,
+          "std": 0.0,
+          "ci_lower": 1.0,
+          "ci_upper": 1.0,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CA-05": {
+          "mean": 1.0,
+          "std": 0.0,
+          "ci_lower": 1.0,
+          "ci_upper": 1.0,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "TA-01": {
+          "mean": 0.9643,
+          "std": 0.0,
+          "ci_lower": 0.9643,
+          "ci_upper": 0.9643,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "TA-02": {
+          "mean": 0.9688,
+          "std": 0.0,
+          "ci_lower": 0.9688,
+          "ci_upper": 0.9688,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "TA-03": {
+          "mean": 0.7833,
+          "std": 0.0,
+          "ci_lower": 0.7833,
+          "ci_upper": 0.7833,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "TA-04": {
+          "mean": 0.95,
+          "std": 0.0,
+          "ci_lower": 0.95,
+          "ci_upper": 0.95,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "TA-05": {
+          "mean": 1.0,
+          "std": 0.0,
+          "ci_lower": 1.0,
+          "ci_upper": 1.0,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CI-01": {
+          "mean": 0.975,
+          "std": 0.0,
+          "ci_lower": 0.975,
+          "ci_upper": 0.975,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CI-02": {
+          "mean": 0.9,
+          "std": 0.0,
+          "ci_lower": 0.9,
+          "ci_upper": 0.9,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CI-03": {
+          "mean": 0.5,
+          "std": 0.0,
+          "ci_lower": 0.5,
+          "ci_upper": 0.5,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CI-04": {
+          "mean": 0.8333,
+          "std": 0.0,
+          "ci_lower": 0.8333,
+          "ci_upper": 0.8333,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CI-05": {
+          "mean": 0.9643,
+          "std": 0.0,
+          "ci_lower": 0.9643,
+          "ci_upper": 0.9643,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        }
+      },
+      "unstable_tests": [
+        "CA-03"
+      ],
+      "unstable_pct": 3.3
+    },
+    "gpt": {
+      "overall_mean": 0.8435,
+      "overall_std": 0.1889,
+      "overall_ci_lower": 0.773,
+      "overall_ci_upper": 0.914,
+      "by_test": {
+        "SC-01": {
+          "mean": 0.85,
+          "std": 0.0,
+          "ci_lower": 0.85,
+          "ci_upper": 0.85,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "SC-02": {
+          "mean": 1.0,
+          "std": 0.0,
+          "ci_lower": 1.0,
+          "ci_upper": 1.0,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "SC-03": {
+          "mean": 0.6667,
+          "std": 0.0,
+          "ci_lower": 0.6667,
+          "ci_upper": 0.6667,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "SC-04": {
+          "mean": 0.95,
+          "std": 0.0,
+          "ci_lower": 0.95,
+          "ci_upper": 0.95,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "SC-05": {
+          "mean": 0.9896,
+          "std": 0.0,
+          "ci_lower": 0.9896,
+          "ci_upper": 0.9896,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "EC-01": {
+          "mean": 0.7917,
+          "std": 0.0,
+          "ci_lower": 0.7917,
+          "ci_upper": 0.7917,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "EC-02": {
+          "mean": 0.8333,
+          "std": 0.0,
+          "ci_lower": 0.8333,
+          "ci_upper": 0.8333,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "EC-03": {
+          "mean": 0.9375,
+          "std": 0.0,
+          "ci_lower": 0.9375,
+          "ci_upper": 0.9375,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "EC-04": {
+          "mean": 0.7917,
+          "std": 0.0,
+          "ci_lower": 0.7917,
+          "ci_upper": 0.7917,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "EC-05": {
+          "mean": 0.9583,
+          "std": 0.0,
+          "ci_lower": 0.9583,
+          "ci_upper": 0.9583,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "FG-01": {
+          "mean": 0.8537,
+          "std": 0.0,
+          "ci_lower": 0.8537,
+          "ci_upper": 0.8537,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "FG-02": {
+          "mean": 0.9108,
+          "std": 0.0,
+          "ci_lower": 0.9108,
+          "ci_upper": 0.9108,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "FG-03": {
+          "mean": 0.9286,
+          "std": 0.0,
+          "ci_lower": 0.9286,
+          "ci_upper": 0.9286,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "FG-04": {
+          "mean": 0.975,
+          "std": 0.0,
+          "ci_lower": 0.975,
+          "ci_upper": 0.975,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "FG-05": {
+          "mean": 0.7526,
+          "std": 0.0,
+          "ci_lower": 0.7526,
+          "ci_upper": 0.7526,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CA-01": {
+          "mean": 0.75,
+          "std": 0.0,
+          "ci_lower": 0.75,
+          "ci_upper": 0.75,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CA-02": {
+          "mean": 0.7667,
+          "std": 0.0,
+          "ci_lower": 0.7667,
+          "ci_upper": 0.7667,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CA-03": {
+          "mean": 0.0,
+          "std": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0,
+          "stability": 0.0,
+          "unstable": true,
+          "n_seeds": 1
+        },
+        "CA-04": {
+          "mean": 1.0,
+          "std": 0.0,
+          "ci_lower": 1.0,
+          "ci_upper": 1.0,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CA-05": {
+          "mean": 1.0,
+          "std": 0.0,
+          "ci_lower": 1.0,
+          "ci_upper": 1.0,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "TA-01": {
+          "mean": 0.9286,
+          "std": 0.0,
+          "ci_lower": 0.9286,
+          "ci_upper": 0.9286,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "TA-02": {
+          "mean": 0.8021,
+          "std": 0.0,
+          "ci_lower": 0.8021,
+          "ci_upper": 0.8021,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "TA-03": {
+          "mean": 1.0,
+          "std": 0.0,
+          "ci_lower": 1.0,
+          "ci_upper": 1.0,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "TA-04": {
+          "mean": 0.9,
+          "std": 0.0,
+          "ci_lower": 0.9,
+          "ci_upper": 0.9,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "TA-05": {
+          "mean": 1.0,
+          "std": 0.0,
+          "ci_lower": 1.0,
+          "ci_upper": 1.0,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CI-01": {
+          "mean": 0.7833,
+          "std": 0.0,
+          "ci_lower": 0.7833,
+          "ci_upper": 0.7833,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CI-02": {
+          "mean": 0.9,
+          "std": 0.0,
+          "ci_lower": 0.9,
+          "ci_upper": 0.9,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CI-03": {
+          "mean": 0.6548,
+          "std": 0.0,
+          "ci_lower": 0.6548,
+          "ci_upper": 0.6548,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CI-04": {
+          "mean": 0.8333,
+          "std": 0.0,
+          "ci_lower": 0.8333,
+          "ci_upper": 0.8333,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CI-05": {
+          "mean": 0.7976,
+          "std": 0.0,
+          "ci_lower": 0.7976,
+          "ci_upper": 0.7976,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        }
+      },
+      "unstable_tests": [
+        "CA-03"
+      ],
+      "unstable_pct": 3.3
+    },
+    "gemini": {
+      "overall_mean": 0.8235,
+      "overall_std": 0.198,
+      "overall_ci_lower": 0.7496,
+      "overall_ci_upper": 0.8974,
+      "by_test": {
+        "SC-01": {
+          "mean": 0.85,
+          "std": 0.0,
+          "ci_lower": 0.85,
+          "ci_upper": 0.85,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "SC-02": {
+          "mean": 0.875,
+          "std": 0.0,
+          "ci_lower": 0.875,
+          "ci_upper": 0.875,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "SC-03": {
+          "mean": 0.6667,
+          "std": 0.0,
+          "ci_lower": 0.6667,
+          "ci_upper": 0.6667,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "SC-04": {
+          "mean": 1.0,
+          "std": 0.0,
+          "ci_lower": 1.0,
+          "ci_upper": 1.0,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "SC-05": {
+          "mean": 0.9896,
+          "std": 0.0,
+          "ci_lower": 0.9896,
+          "ci_upper": 0.9896,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "EC-01": {
+          "mean": 0.6042,
+          "std": 0.0,
+          "ci_lower": 0.6042,
+          "ci_upper": 0.6042,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "EC-02": {
+          "mean": 0.8333,
+          "std": 0.0,
+          "ci_lower": 0.8333,
+          "ci_upper": 0.8333,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "EC-03": {
+          "mean": 0.9375,
+          "std": 0.0,
+          "ci_lower": 0.9375,
+          "ci_upper": 0.9375,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "EC-04": {
+          "mean": 0.9583,
+          "std": 0.0,
+          "ci_lower": 0.9583,
+          "ci_upper": 0.9583,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "EC-05": {
+          "mean": 0.9583,
+          "std": 0.0,
+          "ci_lower": 0.9583,
+          "ci_upper": 0.9583,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "FG-01": {
+          "mean": 0.8524,
+          "std": 0.0,
+          "ci_lower": 0.8524,
+          "ci_upper": 0.8524,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "FG-02": {
+          "mean": 0.9179,
+          "std": 0.0,
+          "ci_lower": 0.9179,
+          "ci_upper": 0.9179,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "FG-03": {
+          "mean": 0.9464,
+          "std": 0.0,
+          "ci_lower": 0.9464,
+          "ci_upper": 0.9464,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "FG-04": {
+          "mean": 1.0,
+          "std": 0.0,
+          "ci_lower": 1.0,
+          "ci_upper": 1.0,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "FG-05": {
+          "mean": 0.9163,
+          "std": 0.0,
+          "ci_lower": 0.9163,
+          "ci_upper": 0.9163,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CA-01": {
+          "mean": 0.75,
+          "std": 0.0,
+          "ci_lower": 0.75,
+          "ci_upper": 0.75,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CA-02": {
+          "mean": 0.6833,
+          "std": 0.0,
+          "ci_lower": 0.6833,
+          "ci_upper": 0.6833,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CA-03": {
+          "mean": 0.1667,
+          "std": 0.0,
+          "ci_lower": 0.1667,
+          "ci_upper": 0.1667,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CA-04": {
+          "mean": 0.8333,
+          "std": 0.0,
+          "ci_lower": 0.8333,
+          "ci_upper": 0.8333,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CA-05": {
+          "mean": 1.0,
+          "std": 0.0,
+          "ci_lower": 1.0,
+          "ci_upper": 1.0,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "TA-01": {
+          "mean": 0.7976,
+          "std": 0.0,
+          "ci_lower": 0.7976,
+          "ci_upper": 0.7976,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "TA-02": {
+          "mean": 0.8854,
+          "std": 0.0,
+          "ci_lower": 0.8854,
+          "ci_upper": 0.8854,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "TA-03": {
+          "mean": 0.5833,
+          "std": 0.0,
+          "ci_lower": 0.5833,
+          "ci_upper": 0.5833,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "TA-04": {
+          "mean": 0.775,
+          "std": 0.0,
+          "ci_lower": 0.775,
+          "ci_upper": 0.775,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "TA-05": {
+          "mean": 0.9643,
+          "std": 0.0,
+          "ci_lower": 0.9643,
+          "ci_upper": 0.9643,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CI-01": {
+          "mean": 0.975,
+          "std": 0.0,
+          "ci_lower": 0.975,
+          "ci_upper": 0.975,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CI-02": {
+          "mean": 0.95,
+          "std": 0.0,
+          "ci_lower": 0.95,
+          "ci_upper": 0.95,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CI-03": {
+          "mean": 0.3214,
+          "std": 0.0,
+          "ci_lower": 0.3214,
+          "ci_upper": 0.3214,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CI-04": {
+          "mean": 0.75,
+          "std": 0.0,
+          "ci_lower": 0.75,
+          "ci_upper": 0.75,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CI-05": {
+          "mean": 0.9643,
+          "std": 0.0,
+          "ci_lower": 0.9643,
+          "ci_upper": 0.9643,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        }
+      },
+      "unstable_tests": [],
+      "unstable_pct": 0.0
+    },
+    "atic_on": {
+      "overall_mean": 0.8674,
+      "overall_std": 0.1427,
+      "overall_ci_lower": 0.8141,
+      "overall_ci_upper": 0.9207,
+      "by_test": {
+        "SC-01": {
+          "mean": 0.85,
+          "std": 0.0,
+          "ci_lower": 0.85,
+          "ci_upper": 0.85,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "SC-02": {
+          "mean": 1.0,
+          "std": 0.0,
+          "ci_lower": 1.0,
+          "ci_upper": 1.0,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "SC-03": {
+          "mean": 0.875,
+          "std": 0.0,
+          "ci_lower": 0.875,
+          "ci_upper": 0.875,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "SC-04": {
+          "mean": 0.9,
+          "std": 0.0,
+          "ci_lower": 0.9,
+          "ci_upper": 0.9,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "SC-05": {
+          "mean": 0.9479,
+          "std": 0.0,
+          "ci_lower": 0.9479,
+          "ci_upper": 0.9479,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "EC-01": {
+          "mean": 0.8333,
+          "std": 0.0,
+          "ci_lower": 0.8333,
+          "ci_upper": 0.8333,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "EC-02": {
+          "mean": 0.9583,
+          "std": 0.0,
+          "ci_lower": 0.9583,
+          "ci_upper": 0.9583,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "EC-03": {
+          "mean": 1.0,
+          "std": 0.0,
+          "ci_lower": 1.0,
+          "ci_upper": 1.0,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "EC-04": {
+          "mean": 0.9583,
+          "std": 0.0,
+          "ci_lower": 0.9583,
+          "ci_upper": 0.9583,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "EC-05": {
+          "mean": 0.9583,
+          "std": 0.0,
+          "ci_lower": 0.9583,
+          "ci_upper": 0.9583,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "FG-01": {
+          "mean": 0.8718,
+          "std": 0.0,
+          "ci_lower": 0.8718,
+          "ci_upper": 0.8718,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "FG-02": {
+          "mean": 0.9029,
+          "std": 0.0,
+          "ci_lower": 0.9029,
+          "ci_upper": 0.9029,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "FG-03": {
+          "mean": 0.9464,
+          "std": 0.0,
+          "ci_lower": 0.9464,
+          "ci_upper": 0.9464,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "FG-04": {
+          "mean": 0.975,
+          "std": 0.0,
+          "ci_lower": 0.975,
+          "ci_upper": 0.975,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "FG-05": {
+          "mean": 0.9123,
+          "std": 0.0,
+          "ci_lower": 0.9123,
+          "ci_upper": 0.9123,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CA-01": {
+          "mean": 0.8333,
+          "std": 0.0,
+          "ci_lower": 0.8333,
+          "ci_upper": 0.8333,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CA-02": {
+          "mean": 0.6833,
+          "std": 0.0,
+          "ci_lower": 0.6833,
+          "ci_upper": 0.6833,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CA-03": {
+          "mean": 0.5,
+          "std": 0.0,
+          "ci_lower": 0.5,
+          "ci_upper": 0.5,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CA-04": {
+          "mean": 0.8304,
+          "std": 0.0,
+          "ci_lower": 0.8304,
+          "ci_upper": 0.8304,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CA-05": {
+          "mean": 0.8,
+          "std": 0.0,
+          "ci_lower": 0.8,
+          "ci_upper": 0.8,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "TA-01": {
+          "mean": 0.8929,
+          "std": 0.0,
+          "ci_lower": 0.8929,
+          "ci_upper": 0.8929,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "TA-02": {
+          "mean": 0.9688,
+          "std": 0.0,
+          "ci_lower": 0.9688,
+          "ci_upper": 0.9688,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "TA-03": {
+          "mean": 0.95,
+          "std": 0.0,
+          "ci_lower": 0.95,
+          "ci_upper": 0.95,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "TA-04": {
+          "mean": 0.8,
+          "std": 0.0,
+          "ci_lower": 0.8,
+          "ci_upper": 0.8,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "TA-05": {
+          "mean": 0.881,
+          "std": 0.0,
+          "ci_lower": 0.881,
+          "ci_upper": 0.881,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CI-01": {
+          "mean": 0.975,
+          "std": 0.0,
+          "ci_lower": 0.975,
+          "ci_upper": 0.975,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CI-02": {
+          "mean": 0.9,
+          "std": 0.0,
+          "ci_lower": 0.9,
+          "ci_upper": 0.9,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CI-03": {
+          "mean": 0.3333,
+          "std": 0.0,
+          "ci_lower": 0.3333,
+          "ci_upper": 0.3333,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CI-04": {
+          "mean": 0.8571,
+          "std": 0.0,
+          "ci_lower": 0.8571,
+          "ci_upper": 0.8571,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CI-05": {
+          "mean": 0.9286,
+          "std": 0.0,
+          "ci_lower": 0.9286,
+          "ci_upper": 0.9286,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        }
+      },
+      "unstable_tests": [],
+      "unstable_pct": 0.0
+    },
+    "atic_off": {
+      "overall_mean": 0.8349,
+      "overall_std": 0.1345,
+      "overall_ci_lower": 0.7847,
+      "overall_ci_upper": 0.8851,
+      "by_test": {
+        "SC-01": {
+          "mean": 0.85,
+          "std": 0.0,
+          "ci_lower": 0.85,
+          "ci_upper": 0.85,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "SC-02": {
+          "mean": 1.0,
+          "std": 0.0,
+          "ci_lower": 1.0,
+          "ci_upper": 1.0,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "SC-03": {
+          "mean": 0.7583,
+          "std": 0.0,
+          "ci_lower": 0.7583,
+          "ci_upper": 0.7583,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "SC-04": {
+          "mean": 0.9,
+          "std": 0.0,
+          "ci_lower": 0.9,
+          "ci_upper": 0.9,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "SC-05": {
+          "mean": 1.0,
+          "std": 0.0,
+          "ci_lower": 1.0,
+          "ci_upper": 1.0,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "EC-01": {
+          "mean": 0.7917,
+          "std": 0.0,
+          "ci_lower": 0.7917,
+          "ci_upper": 0.7917,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "EC-02": {
+          "mean": 0.8333,
+          "std": 0.0,
+          "ci_lower": 0.8333,
+          "ci_upper": 0.8333,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "EC-03": {
+          "mean": 0.625,
+          "std": 0.0,
+          "ci_lower": 0.625,
+          "ci_upper": 0.625,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "EC-04": {
+          "mean": 0.9167,
+          "std": 0.0,
+          "ci_lower": 0.9167,
+          "ci_upper": 0.9167,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "EC-05": {
+          "mean": 0.9375,
+          "std": 0.0,
+          "ci_lower": 0.9375,
+          "ci_upper": 0.9375,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "FG-01": {
+          "mean": 0.8104,
+          "std": 0.0,
+          "ci_lower": 0.8104,
+          "ci_upper": 0.8104,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "FG-02": {
+          "mean": 0.9013,
+          "std": 0.0,
+          "ci_lower": 0.9013,
+          "ci_upper": 0.9013,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "FG-03": {
+          "mean": 0.9464,
+          "std": 0.0,
+          "ci_lower": 0.9464,
+          "ci_upper": 0.9464,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "FG-04": {
+          "mean": 1.0,
+          "std": 0.0,
+          "ci_lower": 1.0,
+          "ci_upper": 1.0,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "FG-05": {
+          "mean": 0.662,
+          "std": 0.0,
+          "ci_lower": 0.662,
+          "ci_upper": 0.662,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CA-01": {
+          "mean": 0.8333,
+          "std": 0.0,
+          "ci_lower": 0.8333,
+          "ci_upper": 0.8333,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CA-02": {
+          "mean": 0.6833,
+          "std": 0.0,
+          "ci_lower": 0.6833,
+          "ci_upper": 0.6833,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CA-03": {
+          "mean": 0.5,
+          "std": 0.0,
+          "ci_lower": 0.5,
+          "ci_upper": 0.5,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CA-04": {
+          "mean": 0.8839,
+          "std": 0.0,
+          "ci_lower": 0.8839,
+          "ci_upper": 0.8839,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CA-05": {
+          "mean": 0.8,
+          "std": 0.0,
+          "ci_lower": 0.8,
+          "ci_upper": 0.8,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "TA-01": {
+          "mean": 0.9643,
+          "std": 0.0,
+          "ci_lower": 0.9643,
+          "ci_upper": 0.9643,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "TA-02": {
+          "mean": 0.9688,
+          "std": 0.0,
+          "ci_lower": 0.9688,
+          "ci_upper": 0.9688,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "TA-03": {
+          "mean": 0.95,
+          "std": 0.0,
+          "ci_lower": 0.95,
+          "ci_upper": 0.95,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "TA-04": {
+          "mean": 0.85,
+          "std": 0.0,
+          "ci_lower": 0.85,
+          "ci_upper": 0.85,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "TA-05": {
+          "mean": 0.75,
+          "std": 0.0,
+          "ci_lower": 0.75,
+          "ci_upper": 0.75,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CI-01": {
+          "mean": 0.8083,
+          "std": 0.0,
+          "ci_lower": 0.8083,
+          "ci_upper": 0.8083,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CI-02": {
+          "mean": 0.85,
+          "std": 0.0,
+          "ci_lower": 0.85,
+          "ci_upper": 0.85,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CI-03": {
+          "mean": 0.4881,
+          "std": 0.0,
+          "ci_lower": 0.4881,
+          "ci_upper": 0.4881,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CI-04": {
+          "mean": 0.8929,
+          "std": 0.0,
+          "ci_lower": 0.8929,
+          "ci_upper": 0.8929,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        },
+        "CI-05": {
+          "mean": 0.8929,
+          "std": 0.0,
+          "ci_lower": 0.8929,
+          "ci_upper": 0.8929,
+          "stability": 1.0,
+          "unstable": false,
+          "n_seeds": 1
+        }
+      },
+      "unstable_tests": [],
+      "unstable_pct": 0.0
+    }
+  },
+  "category_stats": {
+    "claude": {
+      "self-correction": {
+        "mean": 0.9129,
+        "std": 0.1035,
+        "ci_lower": 0.7844,
+        "ci_upper": 1.0414
+      },
+      "epistemic-calibration": {
+        "mean": 0.9083,
+        "std": 0.0745,
+        "ci_lower": 0.8158,
+        "ci_upper": 1.0008
+      },
+      "factual-grounding": {
+        "mean": 0.9085,
+        "std": 0.0792,
+        "ci_lower": 0.8102,
+        "ci_upper": 1.0068
+      },
+      "contradiction-awareness": {
+        "mean": 0.6867,
+        "std": 0.4098,
+        "ci_lower": 0.1779,
+        "ci_upper": 1.1955
+      },
+      "task-adaptation": {
+        "mean": 0.9333,
+        "std": 0.0858,
+        "ci_lower": 0.8268,
+        "ci_upper": 1.0398
+      },
+      "citation-integrity": {
+        "mean": 0.8345,
+        "std": 0.1954,
+        "ci_lower": 0.5919,
+        "ci_upper": 1.0771
+      }
+    },
+    "gpt": {
+      "self-correction": {
+        "mean": 0.8913,
+        "std": 0.1388,
+        "ci_lower": 0.719,
+        "ci_upper": 1.0636
+      },
+      "epistemic-calibration": {
+        "mean": 0.8625,
+        "std": 0.0801,
+        "ci_lower": 0.7631,
+        "ci_upper": 0.9619
+      },
+      "factual-grounding": {
+        "mean": 0.8841,
+        "std": 0.0854,
+        "ci_lower": 0.7781,
+        "ci_upper": 0.9901
+      },
+      "contradiction-awareness": {
+        "mean": 0.7033,
+        "std": 0.4114,
+        "ci_lower": 0.1926,
+        "ci_upper": 1.214
+      },
+      "task-adaptation": {
+        "mean": 0.9261,
+        "std": 0.0821,
+        "ci_lower": 0.8242,
+        "ci_upper": 1.028
+      },
+      "citation-integrity": {
+        "mean": 0.7938,
+        "std": 0.0898,
+        "ci_lower": 0.6823,
+        "ci_upper": 0.9053
+      }
+    },
+    "gemini": {
+      "self-correction": {
+        "mean": 0.8763,
+        "std": 0.1349,
+        "ci_lower": 0.7088,
+        "ci_upper": 1.0438
+      },
+      "epistemic-calibration": {
+        "mean": 0.8583,
+        "std": 0.1512,
+        "ci_lower": 0.6706,
+        "ci_upper": 1.046
+      },
+      "factual-grounding": {
+        "mean": 0.9266,
+        "std": 0.0535,
+        "ci_lower": 0.8602,
+        "ci_upper": 0.993
+      },
+      "contradiction-awareness": {
+        "mean": 0.6867,
+        "std": 0.3139,
+        "ci_lower": 0.297,
+        "ci_upper": 1.0764
+      },
+      "task-adaptation": {
+        "mean": 0.8011,
+        "std": 0.1431,
+        "ci_lower": 0.6234,
+        "ci_upper": 0.9788
+      },
+      "citation-integrity": {
+        "mean": 0.7921,
+        "std": 0.279,
+        "ci_lower": 0.4457,
+        "ci_upper": 1.1385
+      }
+    },
+    "atic_on": {
+      "self-correction": {
+        "mean": 0.9146,
+        "std": 0.0599,
+        "ci_lower": 0.8402,
+        "ci_upper": 0.989
+      },
+      "epistemic-calibration": {
+        "mean": 0.9416,
+        "std": 0.0632,
+        "ci_lower": 0.8631,
+        "ci_upper": 1.0201
+      },
+      "factual-grounding": {
+        "mean": 0.9217,
+        "std": 0.0399,
+        "ci_lower": 0.8722,
+        "ci_upper": 0.9712
+      },
+      "contradiction-awareness": {
+        "mean": 0.7294,
+        "std": 0.1421,
+        "ci_lower": 0.553,
+        "ci_upper": 0.9058
+      },
+      "task-adaptation": {
+        "mean": 0.8985,
+        "std": 0.0664,
+        "ci_lower": 0.8161,
+        "ci_upper": 0.9809
+      },
+      "citation-integrity": {
+        "mean": 0.7988,
+        "std": 0.2637,
+        "ci_lower": 0.4714,
+        "ci_upper": 1.1262
+      }
+    },
+    "atic_off": {
+      "self-correction": {
+        "mean": 0.9017,
+        "std": 0.1032,
+        "ci_lower": 0.7736,
+        "ci_upper": 1.0298
+      },
+      "epistemic-calibration": {
+        "mean": 0.8208,
+        "std": 0.1247,
+        "ci_lower": 0.666,
+        "ci_upper": 0.9756
+      },
+      "factual-grounding": {
+        "mean": 0.864,
+        "std": 0.1326,
+        "ci_lower": 0.6994,
+        "ci_upper": 1.0286
+      },
+      "contradiction-awareness": {
+        "mean": 0.7401,
+        "std": 0.1532,
+        "ci_lower": 0.5499,
+        "ci_upper": 0.9303
+      },
+      "task-adaptation": {
+        "mean": 0.8966,
+        "std": 0.0953,
+        "ci_lower": 0.7783,
+        "ci_upper": 1.0149
+      },
+      "citation-integrity": {
+        "mean": 0.7864,
+        "std": 0.1704,
+        "ci_lower": 0.5749,
+        "ci_upper": 0.9979
+      }
+    }
+  },
+  "score_matrix": {
+    "claude": {
+      "SC-01": [
+        0.75
+      ],
+      "SC-02": [
+        1.0
+      ],
+      "SC-03": [
+        0.875
+      ],
+      "SC-04": [
+        0.95
+      ],
+      "SC-05": [
+        0.9896
+      ],
+      "EC-01": [
+        0.8333
+      ],
+      "EC-02": [
+        0.8333
+      ],
+      "EC-03": [
+        1.0
+      ],
+      "EC-04": [
+        0.9167
+      ],
+      "EC-05": [
+        0.9583
+      ],
+      "FG-01": [
+        0.7723
+      ],
+      "FG-02": [
+        0.9149
+      ],
+      "FG-03": [
+        0.9464
+      ],
+      "FG-04": [
+        0.975
+      ],
+      "FG-05": [
+        0.9337
+      ],
+      "CA-01": [
+        0.75
+      ],
+      "CA-02": [
+        0.6833
+      ],
+      "CA-03": [
+        0.0
+      ],
+      "CA-04": [
+        1.0
+      ],
+      "CA-05": [
+        1.0
+      ],
+      "TA-01": [
+        0.9643
+      ],
+      "TA-02": [
+        0.9688
+      ],
+      "TA-03": [
+        0.7833
+      ],
+      "TA-04": [
+        0.95
+      ],
+      "TA-05": [
+        1.0
+      ],
+      "CI-01": [
+        0.975
+      ],
+      "CI-02": [
+        0.9
+      ],
+      "CI-03": [
+        0.5
+      ],
+      "CI-04": [
+        0.8333
+      ],
+      "CI-05": [
+        0.9643
+      ]
+    },
+    "gpt": {
+      "SC-01": [
+        0.85
+      ],
+      "SC-02": [
+        1.0
+      ],
+      "SC-03": [
+        0.6667
+      ],
+      "SC-04": [
+        0.95
+      ],
+      "SC-05": [
+        0.9896
+      ],
+      "EC-01": [
+        0.7917
+      ],
+      "EC-02": [
+        0.8333
+      ],
+      "EC-03": [
+        0.9375
+      ],
+      "EC-04": [
+        0.7917
+      ],
+      "EC-05": [
+        0.9583
+      ],
+      "FG-01": [
+        0.8537
+      ],
+      "FG-02": [
+        0.9108
+      ],
+      "FG-03": [
+        0.9286
+      ],
+      "FG-04": [
+        0.975
+      ],
+      "FG-05": [
+        0.7526
+      ],
+      "CA-01": [
+        0.75
+      ],
+      "CA-02": [
+        0.7667
+      ],
+      "CA-03": [
+        0.0
+      ],
+      "CA-04": [
+        1.0
+      ],
+      "CA-05": [
+        1.0
+      ],
+      "TA-01": [
+        0.9286
+      ],
+      "TA-02": [
+        0.8021
+      ],
+      "TA-03": [
+        1.0
+      ],
+      "TA-04": [
+        0.9
+      ],
+      "TA-05": [
+        1.0
+      ],
+      "CI-01": [
+        0.7833
+      ],
+      "CI-02": [
+        0.9
+      ],
+      "CI-03": [
+        0.6548
+      ],
+      "CI-04": [
+        0.8333
+      ],
+      "CI-05": [
+        0.7976
+      ]
+    },
+    "gemini": {
+      "SC-01": [
+        0.85
+      ],
+      "SC-02": [
+        0.875
+      ],
+      "SC-03": [
+        0.6667
+      ],
+      "SC-04": [
+        1.0
+      ],
+      "SC-05": [
+        0.9896
+      ],
+      "EC-01": [
+        0.6042
+      ],
+      "EC-02": [
+        0.8333
+      ],
+      "EC-03": [
+        0.9375
+      ],
+      "EC-04": [
+        0.9583
+      ],
+      "EC-05": [
+        0.9583
+      ],
+      "FG-01": [
+        0.8524
+      ],
+      "FG-02": [
+        0.9179
+      ],
+      "FG-03": [
+        0.9464
+      ],
+      "FG-04": [
+        1.0
+      ],
+      "FG-05": [
+        0.9163
+      ],
+      "CA-01": [
+        0.75
+      ],
+      "CA-02": [
+        0.6833
+      ],
+      "CA-03": [
+        0.1667
+      ],
+      "CA-04": [
+        0.8333
+      ],
+      "CA-05": [
+        1.0
+      ],
+      "TA-01": [
+        0.7976
+      ],
+      "TA-02": [
+        0.8854
+      ],
+      "TA-03": [
+        0.5833
+      ],
+      "TA-04": [
+        0.775
+      ],
+      "TA-05": [
+        0.9643
+      ],
+      "CI-01": [
+        0.975
+      ],
+      "CI-02": [
+        0.95
+      ],
+      "CI-03": [
+        0.3214
+      ],
+      "CI-04": [
+        0.75
+      ],
+      "CI-05": [
+        0.9643
+      ]
+    },
+    "atic_on": {
+      "SC-01": [
+        0.85
+      ],
+      "SC-02": [
+        1.0
+      ],
+      "SC-03": [
+        0.875
+      ],
+      "SC-04": [
+        0.9
+      ],
+      "SC-05": [
+        0.9479
+      ],
+      "EC-01": [
+        0.8333
+      ],
+      "EC-02": [
+        0.9583
+      ],
+      "EC-03": [
+        1.0
+      ],
+      "EC-04": [
+        0.9583
+      ],
+      "EC-05": [
+        0.9583
+      ],
+      "FG-01": [
+        0.8718
+      ],
+      "FG-02": [
+        0.9029
+      ],
+      "FG-03": [
+        0.9464
+      ],
+      "FG-04": [
+        0.975
+      ],
+      "FG-05": [
+        0.9123
+      ],
+      "CA-01": [
+        0.8333
+      ],
+      "CA-02": [
+        0.6833
+      ],
+      "CA-03": [
+        0.5
+      ],
+      "CA-04": [
+        0.8304
+      ],
+      "CA-05": [
+        0.8
+      ],
+      "TA-01": [
+        0.8929
+      ],
+      "TA-02": [
+        0.9688
+      ],
+      "TA-03": [
+        0.95
+      ],
+      "TA-04": [
+        0.8
+      ],
+      "TA-05": [
+        0.881
+      ],
+      "CI-01": [
+        0.975
+      ],
+      "CI-02": [
+        0.9
+      ],
+      "CI-03": [
+        0.3333
+      ],
+      "CI-04": [
+        0.8571
+      ],
+      "CI-05": [
+        0.9286
+      ]
+    },
+    "atic_off": {
+      "SC-01": [
+        0.85
+      ],
+      "SC-02": [
+        1.0
+      ],
+      "SC-03": [
+        0.7583
+      ],
+      "SC-04": [
+        0.9
+      ],
+      "SC-05": [
+        1.0
+      ],
+      "EC-01": [
+        0.7917
+      ],
+      "EC-02": [
+        0.8333
+      ],
+      "EC-03": [
+        0.625
+      ],
+      "EC-04": [
+        0.9167
+      ],
+      "EC-05": [
+        0.9375
+      ],
+      "FG-01": [
+        0.8104
+      ],
+      "FG-02": [
+        0.9013
+      ],
+      "FG-03": [
+        0.9464
+      ],
+      "FG-04": [
+        1.0
+      ],
+      "FG-05": [
+        0.662
+      ],
+      "CA-01": [
+        0.8333
+      ],
+      "CA-02": [
+        0.6833
+      ],
+      "CA-03": [
+        0.5
+      ],
+      "CA-04": [
+        0.8839
+      ],
+      "CA-05": [
+        0.8
+      ],
+      "TA-01": [
+        0.9643
+      ],
+      "TA-02": [
+        0.9688
+      ],
+      "TA-03": [
+        0.95
+      ],
+      "TA-04": [
+        0.85
+      ],
+      "TA-05": [
+        0.75
+      ],
+      "CI-01": [
+        0.8083
+      ],
+      "CI-02": [
+        0.85
+      ],
+      "CI-03": [
+        0.4881
+      ],
+      "CI-04": [
+        0.8929
+      ],
+      "CI-05": [
+        0.8929
+      ]
+    }
+  }
+}
